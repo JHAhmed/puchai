@@ -220,8 +220,8 @@ async def fetch(
 async def main():
     await mcp.run_async(
         "streamable-http",
-        # host="0.0.0.0",
-        # port=8085,
+        host="0.0.0.0",
+        port=8085,
     )
 
 
